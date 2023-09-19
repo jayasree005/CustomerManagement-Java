@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+*
+{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body
+{
+	background-image: url("https://image.slidesdocs.com/responsive-images/docs/watercolor-smudge-graffiti-in-shades-of-blue-page-border-background-word-template_24c5c6e1ec__1131_1600.jpg");
+	background-size: cover;
+}
+
+.heading 
+{
+	height: 50px;
+	background-color: rgb(228, 205, 17);
+ text-align: center;
+ color:darkslateblue;
+ border: 5px solid darkslateblue;
+}
+
+table, td, th 
+{
+  border: 2px solid rgb(228, 205, 17);
+  color:aliceblue;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  width:70%;
+	background-color:darkslateblue ;
+	text-align: center;
+	margin:auto;
+}
+
+.add 
+{
+	position: relative;
+	left: 15%;
+	/* padding: 20px 20px 20px 0px;*/
+     color: yellow;
+}
+
+
+a{
+	text-decoration: none;
+	  color:aliceblue;
+}
+
